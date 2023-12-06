@@ -15,10 +15,10 @@ echo "start_time: $start_time & end_time: $end_time"
 
 # Test pycbc inspiral by running over GW150914 with a limited template bank
 echo -e "\\n\\n>> [`date`] Getting template bank"
-/Users/neereshkumarperla/miniconda3/envs/research/bin/wget -nv -nc https://github.com/gwastro/pycbc-config/raw/master/test/inspiral/SMALLER_BANK_FOR_GW150914.hdf
+<path_to_wget>/wget -nv -nc https://github.com/gwastro/pycbc-config/raw/master/test/inspiral/SMALLER_BANK_FOR_GW150914.hdf
 
 echo -e "\\n\\n>> [`date`] Creating data file"
-/Users/neereshkumarperla/miniconda3/envs/research/bin/pycbc_condition_strain \
+<path_to_pycbc_condition_strain>/pycbc_condition_strain \
     --frame-type LOSC_STRAIN \
     --sample-rate 2048 \
     --pad-data 8 \
@@ -34,7 +34,7 @@ echo -e "\\n\\n>> [`date`] Creating data file"
 
 echo -e "\\n\\n>> [`date`] Executing PyCBC Inspiral"
 
-/Users/neereshkumarperla/miniconda3/envs/research/bin/pycbc_inspiral \
+<path_to_pycbc_inspiral>/pycbc_inspiral \
 --frame-files DATA_FILE.gwf \
 --sample-rate 2048 \
 --sgchisq-snr-threshold 6.0 \
