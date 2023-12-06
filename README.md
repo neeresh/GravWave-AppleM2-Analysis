@@ -201,8 +201,37 @@ You can verify the HTCondor installation by executing the following commands:
 - `condor_rm JOBID`: To remove a job from IDLE state
 
 
+# Setting up Pegasus and Resolving Installation Issues
 
+## Installing Pegasus
 
+After installing PyCBC, if you encounter any errors while executing Pegasus workflow, please consider doing the following steps to resolve issues
+
+### a. Install Pycbc (If not done previously)
+
+```bash
+pip install .
+```
+
+#### Install homebrew before as mention here: [homebrew installation](https://docs.brew.sh/Installation) and follow the steps below
+
+**Note:** To generate the executable workflow
+
+### b. Tap into Pegasus-tools using
+
+```
+brew tap pegasus-isi/tools
+```
+
+### c. Install Pegasus
+
+Now, install Pegasus using Homebrew:
+
+```
+brew install pegasus
+```
+
+These steps are essential to overcome any errors encountered during the installation process and to ensure a successful setup.
 
 
 
