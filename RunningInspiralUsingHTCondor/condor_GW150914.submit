@@ -1,7 +1,7 @@
 executable = condor_run.sh
 arguments = "'$(gps_start_time)' '$(gps_duration)'"
 
-transfer_input_files = /Users/neereshkumarperla/Documents/NeereshMaster/research/src/lalsuite-extra/data/lalsimulation/
+transfer_input_files = <path_to_lalsuite-extra_cloned_directory>/lalsuite-extra/data/lalsimulation/
 
 output = condor_output_GW150914.out.$(cluster)
 error = condor_error_GW150914.err.$(cluster)
