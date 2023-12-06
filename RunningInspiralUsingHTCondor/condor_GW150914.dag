@@ -1,0 +1,8 @@
+JOB job1 condor_GW150914.submit
+VARS job1 gps_start_time="1126259078"
+VARS job1 gps_duration="256"
+
+JOB job2 condor_GW150914.submit
+VARS job2 gps_start_time="1126259078"
+VARS job2 gps_duration="512"
+
