@@ -17,24 +17,12 @@ echo "start_time: $start_time & end_time: $end_time"
 
 # Test pycbc inspiral by running over GW150914 with a limited template bank
 echo -e "\\n\\n>> [`date`] Getting template bank"
-/Users/neereshkumarperla/miniconda3/envs/research/bin/wget -nv -nc https://github.com/gwastro/pycbc-config/raw/master/test/inspiral/SMALLER_BANK_FOR_GW150914.hdf
-
-echo -e "\\n\\n>> [`date`] Compressing template bank"
-/Users/neereshkumarperla/miniconda3/envs/research/bin/pycbc_compress_bank \
-    --bank-file SMALLER_BANK_FOR_GW150914.hdf \
-    --output COMPRESSED_BANK.hdf \
-    --sample-rate 4096 \
-    --segment-length 256 \
-    --compression-algorithm mchirp \
-    --psd-model aLIGOZeroDetHighPower \
-    --low-frequency-cutoff 30 \
-    --approximant "SEOBNRv4_ROM"
-
+<path_to_wget>/wget -nv -nc https://github.com/gwastro/pycbc-config/raw/master/test/inspiral/SMALLER_BANK_FOR_GW150914.hdf
 
 echo -e "\\n\\n>> [`date`] Creating data file"
 filename=DATA_FILE_${start_time}_${end_time}.gwf
 
-/Users/neereshkumarperla/miniconda3/envs/research/bin/pycbc_condition_strain \
+<path_to_pycbc_condition_strain>/pycbc_condition_strain \
     --frame-type LOSC_STRAIN \
     --sample-rate 2048 \
     --pad-data 8 \
@@ -50,7 +38,7 @@ filename=DATA_FILE_${start_time}_${end_time}.gwf
 
 echo -e "\\n\\n>> [`date`] Executing PyCBC Inspiral"
 
-/Users/neereshkumarperla/miniconda3/envs/research/bin/python -m cProfile -o profile_$1_$2.out /Users/neereshkumarperla/miniconda3/envs/research/bin/pycbc_inspiral \
+<path_to_pycbc_inspiral>/pycbc_inspiral \
 --frame-files $filename \
 --sample-rate 2048 \
 --sgchisq-snr-threshold 6.0 \
