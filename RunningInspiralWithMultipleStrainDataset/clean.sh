@@ -1,0 +1,1 @@
+rm -f H1-INSPIRAL_* output_*pstats inspiral_*log *png DATA_FILE* COMPRESSED_BANK.hdf SMALLER_BANK_FOR_GW150914.hdf condor_error_* condor_log_* condor_output_* inspiral_* profile_* condor_GW150914.dag.*

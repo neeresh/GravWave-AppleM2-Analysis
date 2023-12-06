@@ -1,0 +1,18 @@
+executable = condor_run_n_files.sh
+arguments = "'$(gps_start_time)' '$(gps_duration)'"
+
+transfer_input_files = /Users/neereshkumarperla/Documents/NeereshMaster/research/src/lalsuite-extra/data/lalsimulation/
+universe=vanilla
+
+output = condor_output_GW150914.out.$(cluster)
+error = condor_error_GW150914.err.$(cluster)
+log = condor_log_GW150914.log.$(cluster)
+
+request_cpus = 1
+request_memory = 1024M
+request_disk = 10240K
+
+should_transfer_files = yes
+when_to_transfer_output = ON_EXIT
+
+queue
