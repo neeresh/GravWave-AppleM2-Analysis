@@ -1,0 +1,74 @@
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 1, Threading Type: unthreaded
+real	60m14.082s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 1, Threading Type: openmp
+real	60m32.484s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 1, Threading Type: pthreads
+real	60m33.808s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 2, Threading Type: unthreaded
+real	0m5.715s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 2, Threading Type: openmp
+real	38m51.273s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 2, Threading Type: pthreads
+real	38m33.277s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 4, Threading Type: unthreaded
+real	0m5.732s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 4, Threading Type: openmp
+real	26m12.229s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 4, Threading Type: pthreads
+real	26m22.190s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 8, Threading Type: unthreaded
+real	0m5.740s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 8, Threading Type: openmp
+real	24m34.437s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 8, Threading Type: pthreads
+real	24m58.747s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 16, Threading Type: unthreaded
+real	0m5.546s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 16, Threading Type: openmp
+real	24m6.328s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 16, Threading Type: pthreads
+real	22m2.433s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 32, Threading Type: unthreaded
+real	0m5.540s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 32, Threading Type: openmp
+real	23m40.519s
+File: run_data_length_factor_by_8.sh, Backend: fftw, Thread Count: 32, Threading Type: pthreads
+real	22m2.047s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 1, Threading Type: unthreaded
+real	74m10.747s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 1, Threading Type: openmp
+real	73m57.440s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 1, Threading Type: pthreads
+real	74m3.884s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 2, Threading Type: unthreaded
+real	73m5.226s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 2, Threading Type: openmp
+real	73m19.267s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 2, Threading Type: pthreads
+real	73m4.718s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 4, Threading Type: unthreaded
+real	76m49.617s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 4, Threading Type: openmp
+real	72m31.271s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 4, Threading Type: pthreads
+real	73m29.933s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 8, Threading Type: unthreaded
+real	72m2.013s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 8, Threading Type: openmp
+real	73m13.252s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 8, Threading Type: pthreads
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 16, Threading Type: unthreaded
+real	81m28.839s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 16, Threading Type: openmp
+real	75m11.247s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 16, Threading Type: pthreads
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 32, Threading Type: unthreaded
+real	74m1.690s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 32, Threading Type: openmp
+real	73m25.833s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 32, Threading Type: pthreads
+real	75m45.706s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 8, Threading Type: pthreads
+real	72m45.568s
+File: run_data_length_factor_by_8.sh, Backend: numpy, Thread Count: 16, Threading Type: pthreads
+real	73m50.350s
