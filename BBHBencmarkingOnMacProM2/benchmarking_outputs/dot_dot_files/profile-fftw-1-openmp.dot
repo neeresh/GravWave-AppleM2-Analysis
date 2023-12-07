@@ -1,0 +1,35 @@
+digraph {
+	graph [fontname=Arial, nodesep=0.125, ranksep=0.25];
+	node [fontcolor=white, fontname=Arial, height=0, shape=box, style=filled, width=0];
+	edge [fontname=Arial];
+	575 [color="#ff0000", fontcolor="#ffffff", fontsize="10.00", label="pycbc_inspiral:1:<module>\n100.00%\n(0.00%)\n1×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/bin/pycbc_inspiral"];
+	575 -> 2392 [arrowsize="1.00", color="#ff0200", fontcolor="#ff0200", fontsize="10.00", label="99.83%\n17485×", labeldistance="3.99", penwidth="3.99"];
+	1804 [color="#0d0f74", fontcolor="#ffffff", fontsize="10.00", label="scheme:191:_scheming_function\n0.61%\n(0.43%)\n343138×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/lib/python3.11/site-packages/pycbc/scheme.py"];
+	1804 -> 4580 [arrowsize="0.35", color="#0d0d73", fontcolor="#0d0d73", fontsize="10.00", label="0.18%\n100700×", labeldistance="0.50", penwidth="0.50"];
+	1881 [color="#ff0000", fontcolor="#ffffff", fontsize="10.00", label="~:0:<built-in method builtins.exec>\n100.00%\n(0.00%)\n1693×", tooltip="~"];
+	1881 -> 575 [arrowsize="1.00", color="#ff0000", fontcolor="#ff0000", fontsize="10.00", label="100.00%\n1×", labeldistance="4.00", penwidth="4.00"];
+	2029 [color="#0d1074", fontcolor="#ffffff", fontsize="10.00", label="array:144:__init__\n0.67%\n(0.01%)\n279484×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/lib/python3.11/site-packages/pycbc/types/array.py"];
+	2029 -> 2731 [arrowsize="0.35", color="#0d0f74", fontcolor="#0d0f74", fontsize="10.00", label="0.65%\n52487×", labeldistance="0.50", penwidth="0.50"];
+	2045 [color="#0d4a83", fontcolor="#ffffff", fontsize="10.00", label="bank:759:__getitem__\n12.95%\n(0.16%)\n17485×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/lib/python3.11/site-packages/pycbc/waveform/bank.py"];
+	2045 -> 2423 [arrowsize="0.35", color="#0d4883", fontcolor="#0d4883", fontsize="10.00", label="12.53%\n17485×", labeldistance="0.50", penwidth="0.50"];
+	2045 -> 4580 [arrowsize="0.35", color="#0d0d73", fontcolor="#0d0d73", fontsize="10.00", label="0.18%\n52455×", labeldistance="0.50", penwidth="0.50"];
+	2168 [color="#0d0f73", fontcolor="#ffffff", fontsize="10.00", label="frequencyseries:42:__init__\n0.52%\n(0.01%)\n238875×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/lib/python3.11/site-packages/pycbc/types/frequencyseries.py"];
+	2168 -> 2029 [arrowsize="0.35", color="#0d0f73", fontcolor="#0d0f73", fontsize="10.00", label="0.52%\n238875×", labeldistance="0.50", penwidth="0.50"];
+	2392 [color="#ff0200", fontcolor="#ffffff", fontsize="10.00", label="pycbc_inspiral:235:template_triggers\n99.83%\n(0.03%)\n17485×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/bin/pycbc_inspiral"];
+	2392 -> 2045 [arrowsize="0.36", color="#0d4a83", fontcolor="#0d4a83", fontsize="10.00", label="12.95%\n17485×", labeldistance="0.52", penwidth="0.52"];
+	2392 -> 2399 [arrowsize="0.93", color="#ea8503", fontcolor="#ea8503", fontsize="10.00", label="85.95%\n279760×", labeldistance="3.44", penwidth="3.44"];
+	2399 [color="#ea8503", fontcolor="#ffffff", fontsize="10.00", label="matchedfilter:240:full_matched_filter_and_cluster_symm\n85.95%\n(2.31%)\n279760×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/lib/python3.11/site-packages/pycbc/filter/matchedfilter.py"];
+	2399 -> 4188 [arrowsize="0.35", color="#0d1a77", fontcolor="#0d1a77", fontsize="10.00", label="3.01%\n279760×", labeldistance="0.50", penwidth="0.50"];
+	2399 -> 5084 [arrowsize="0.90", color="#e2b004", fontcolor="#e2b004", fontsize="10.00", label="80.62%\n279760×", labeldistance="3.22", penwidth="3.22"];
+	2423 [color="#0d4883", fontcolor="#ffffff", fontsize="10.00", label="waveform:1169:get_waveform_filter\n12.53%\n(0.01%)\n17485×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/lib/python3.11/site-packages/pycbc/waveform/waveform.py"];
+	2423 -> 4693 [arrowsize="0.35", color="#0d4582", fontcolor="#0d4582", fontsize="10.00", label="11.98%\n17485×", labeldistance="0.50", penwidth="0.50"];
+	2731 [color="#0d0f74", fontcolor="#ffffff", fontsize="10.00", label="~:0:<built-in method numpy.array>\n0.66%\n(0.66%)\n632073×", tooltip="~"];
+	4188 [color="#0d1a77", fontcolor="#ffffff", fontsize="10.00", label="threshold_cpu:77:threshold_and_cluster\n3.01%\n(3.01%)\n279760×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/lib/python3.11/site-packages/pycbc/events/threshold_cpu.py"];
+	4580 [color="#0d1074", fontcolor="#ffffff", fontsize="10.00", label="array:62:convert\n0.71%\n(0.01%)\n410951×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/lib/python3.11/site-packages/pycbc/types/array.py"];
+	4580 -> 1804 [arrowsize="0.35", color="#0d0f73", fontcolor="#0d0f73", fontsize="10.00", label="0.53%\n87046×", labeldistance="0.50", penwidth="0.50"];
+	4693 [color="#0d4582", fontcolor="#ffffff", fontsize="10.00", label="waveform:239:_lalsim_fd_waveform\n11.98%\n(0.01%)\n17485×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/lib/python3.11/site-packages/pycbc/waveform/waveform.py"];
+	4693 -> 2168 [arrowsize="0.35", color="#0d0f73", fontcolor="#0d0f73", fontsize="10.00", label="0.50%\n34970×", labeldistance="0.50", penwidth="0.50"];
+	4693 -> 7986 [arrowsize="0.35", color="#0d4282", fontcolor="#0d4282", fontsize="10.00", label="11.46%\n17485×", labeldistance="0.50", penwidth="0.50"];
+	5084 [color="#e2b004", fontcolor="#ffffff", fontsize="10.00", label="fftw:474:execute\n80.62%\n(80.62%)\n279760×", tooltip="/Users/neereshkumarperla/miniconda3/envs/pycbc/lib/python3.11/site-packages/pycbc/fft/fftw.py"];
+	7986 [color="#0d4282", fontcolor="#ffffff", fontsize="10.00", label="~:0:<built-in method lalsimulation._lalsimulation.SimInspiralChooseFDWaveform>\n11.46%\n(11.46%)\n17485×", tooltip="~"];
+}
