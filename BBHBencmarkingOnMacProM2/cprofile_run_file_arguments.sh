@@ -1,7 +1,7 @@
 file_names=("run_data_length_factor_by_8.sh")
-backends=("numpy")
-thread_counts=("8" "16")
-threading_types=("pthreads")
+backends=("fftw" "numpy")
+thread_counts=("1" "2" "4" "8" "16" "32")
+threading_types=("openmp" "unthreaded" "pthreads")
 
 for file in "${file_names[@]}"; do
   for backend in "${backends[@]}"; do
