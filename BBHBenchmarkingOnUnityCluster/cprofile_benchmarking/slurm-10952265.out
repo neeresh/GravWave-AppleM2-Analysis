@@ -1,0 +1,171 @@
+Current Partition: umd-cscdr-cpu
+Node Name: umd-cscdr-cpu[001,003-004,007]
+Number of Nodes: 4
+Number of Tasks: 16
+CPUs per Node: 4
+Running Inspiral...
+
+
+>> [Thu 12 Oct 2023 05:40:38 AM UTC] Running pycbc inspiral fftw:openmp with 1 threads
+
+
+>> [Thu 12 Oct 2023 06:46:34 AM UTC] Running pycbc inspiral fftw:unthreaded with 1 threads
+
+
+>> [Thu 12 Oct 2023 07:52:43 AM UTC] Running pycbc inspiral fftw:pthreads with 1 threads
+
+
+>> [Thu 12 Oct 2023 08:54:28 AM UTC] Running pycbc inspiral fftw:openmp with 2 threads
+
+
+>> [Thu 12 Oct 2023 09:36:59 AM UTC] Running pycbc inspiral fftw:unthreaded with 2 threads
+
+
+>> [Thu 12 Oct 2023 09:37:10 AM UTC] Running pycbc inspiral fftw:pthreads with 2 threads
+
+
+>> [Thu 12 Oct 2023 10:27:38 AM UTC] Running pycbc inspiral fftw:openmp with 4 threads
+
+
+>> [Thu 12 Oct 2023 10:57:23 AM UTC] Running pycbc inspiral fftw:unthreaded with 4 threads
+
+
+>> [Thu 12 Oct 2023 10:57:34 AM UTC] Running pycbc inspiral fftw:pthreads with 4 threads
+
+
+>> [Thu 12 Oct 2023 11:40:45 AM UTC] Running pycbc inspiral fftw:openmp with 8 threads
+
+
+>> [Thu 12 Oct 2023 12:10:42 PM UTC] Running pycbc inspiral fftw:unthreaded with 8 threads
+
+
+>> [Thu 12 Oct 2023 12:10:52 PM UTC] Running pycbc inspiral fftw:pthreads with 8 threads
+
+
+>> [Thu 12 Oct 2023 12:53:25 PM UTC] Running pycbc inspiral fftw:openmp with 16 threads
+
+
+>> [Thu 12 Oct 2023 01:22:34 PM UTC] Running pycbc inspiral fftw:unthreaded with 16 threads
+
+
+>> [Thu 12 Oct 2023 01:22:45 PM UTC] Running pycbc inspiral fftw:pthreads with 16 threads
+
+
+>> [Thu 12 Oct 2023 02:05:01 PM UTC] Running pycbc inspiral fftw:openmp with 32 threads
+
+
+>> [Thu 12 Oct 2023 02:34:32 PM UTC] Running pycbc inspiral fftw:unthreaded with 32 threads
+
+
+>> [Thu 12 Oct 2023 02:34:43 PM UTC] Running pycbc inspiral fftw:pthreads with 32 threads
+
+
+>> [Thu 12 Oct 2023 03:17:39 PM UTC] Running pycbc inspiral numpy:openmp with 1 threads
+
+
+>> [Thu 12 Oct 2023 05:10:44 PM UTC] Running pycbc inspiral numpy:unthreaded with 1 threads
+
+
+>> [Thu 12 Oct 2023 07:03:35 PM UTC] Running pycbc inspiral numpy:pthreads with 1 threads
+
+
+>> [Thu 12 Oct 2023 08:54:19 PM UTC] Running pycbc inspiral numpy:openmp with 2 threads
+
+
+>> [Thu 12 Oct 2023 10:47:36 PM UTC] Running pycbc inspiral numpy:unthreaded with 2 threads
+
+
+>> [Fri 13 Oct 2023 12:41:11 AM UTC] Running pycbc inspiral numpy:pthreads with 2 threads
+
+
+>> [Fri 13 Oct 2023 02:33:09 AM UTC] Running pycbc inspiral numpy:openmp with 4 threads
+
+
+>> [Fri 13 Oct 2023 04:26:10 AM UTC] Running pycbc inspiral numpy:unthreaded with 4 threads
+
+
+>> [Fri 13 Oct 2023 06:18:08 AM UTC] Running pycbc inspiral numpy:pthreads with 4 threads
+
+
+>> [Fri 13 Oct 2023 08:10:08 AM UTC] Running pycbc inspiral numpy:openmp with 8 threads
+
+
+>> [Fri 13 Oct 2023 10:02:13 AM UTC] Running pycbc inspiral numpy:unthreaded with 8 threads
+
+
+>> [Fri 13 Oct 2023 11:54:43 AM UTC] Running pycbc inspiral numpy:pthreads with 8 threads
+
+
+>> [Fri 13 Oct 2023 01:46:39 PM UTC] Running pycbc inspiral numpy:openmp with 16 threads
+
+
+>> [Fri 13 Oct 2023 03:40:04 PM UTC] Running pycbc inspiral numpy:unthreaded with 16 threads
+
+
+>> [Fri 13 Oct 2023 05:31:19 PM UTC] Running pycbc inspiral numpy:pthreads with 16 threads
+
+
+>> [Fri 13 Oct 2023 07:20:21 PM UTC] Running pycbc inspiral numpy:openmp with 32 threads
+
+
+>> [Fri 13 Oct 2023 09:13:08 PM UTC] Running pycbc inspiral numpy:unthreaded with 32 threads
+
+
+>> [Fri 13 Oct 2023 11:06:03 PM UTC] Running pycbc inspiral numpy:pthreads with 32 threads
+
+
+>> [Sat 14 Oct 2023 12:59:03 AM UTC] Running pycbc inspiral fftw:openmp with 1 threads
+
+
+>> [Sat 14 Oct 2023 02:54:15 AM UTC] Running pycbc inspiral fftw:unthreaded with 1 threads
+
+
+>> [Sat 14 Oct 2023 04:49:50 AM UTC] Running pycbc inspiral fftw:pthreads with 1 threads
+
+
+>> [Sat 14 Oct 2023 06:46:59 AM UTC] Running pycbc inspiral fftw:openmp with 2 threads
+
+
+>> [Sat 14 Oct 2023 07:58:21 AM UTC] Running pycbc inspiral fftw:unthreaded with 2 threads
+
+
+>> [Sat 14 Oct 2023 07:58:36 AM UTC] Running pycbc inspiral fftw:pthreads with 2 threads
+
+
+>> [Sat 14 Oct 2023 09:29:53 AM UTC] Running pycbc inspiral fftw:openmp with 4 threads
+
+
+>> [Sat 14 Oct 2023 10:14:50 AM UTC] Running pycbc inspiral fftw:unthreaded with 4 threads
+
+
+>> [Sat 14 Oct 2023 10:15:05 AM UTC] Running pycbc inspiral fftw:pthreads with 4 threads
+
+
+>> [Sat 14 Oct 2023 11:26:26 AM UTC] Running pycbc inspiral fftw:openmp with 8 threads
+
+
+>> [Sat 14 Oct 2023 12:12:07 PM UTC] Running pycbc inspiral fftw:unthreaded with 8 threads
+
+
+>> [Sat 14 Oct 2023 12:12:22 PM UTC] Running pycbc inspiral fftw:pthreads with 8 threads
+
+
+>> [Sat 14 Oct 2023 01:23:18 PM UTC] Running pycbc inspiral fftw:openmp with 16 threads
+
+
+>> [Sat 14 Oct 2023 02:08:40 PM UTC] Running pycbc inspiral fftw:unthreaded with 16 threads
+
+
+>> [Sat 14 Oct 2023 02:08:56 PM UTC] Running pycbc inspiral fftw:pthreads with 16 threads
+
+
+>> [Sat 14 Oct 2023 03:20:20 PM UTC] Running pycbc inspiral fftw:openmp with 32 threads
+
+
+>> [Sat 14 Oct 2023 04:05:37 PM UTC] Running pycbc inspiral fftw:unthreaded with 32 threads
+
+
+>> [Sat 14 Oct 2023 04:05:53 PM UTC] Running pycbc inspiral fftw:pthreads with 32 threads
+
+
+>> [Sat 14 Oct 2023 05:15:31 PM UTC] Running pycbc inspiral numpy:openmp with 1 threads
