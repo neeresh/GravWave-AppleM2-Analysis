@@ -1,0 +1,33 @@
+Current Partition: umd-cscdr-cpu
+Node Name: umd-cscdr-cpu[001,039-040,046]
+Number of Nodes: 4
+Number of Tasks: 16
+CPUs per Node: 64
+Running Inspiral...
+
+
+>> [Fri 20 Oct 2023 02:43:48 PM UTC] Running pycbc inspiral numpy:openmp with 8 threads
+
+
+>> [Fri 20 Oct 2023 06:12:25 PM UTC] Running pycbc inspiral numpy:unthreaded with 8 threads
+
+
+>> [Fri 20 Oct 2023 09:42:04 PM UTC] Running pycbc inspiral numpy:pthreads with 8 threads
+
+
+>> [Sat 21 Oct 2023 01:09:45 AM UTC] Running pycbc inspiral numpy:openmp with 16 threads
+
+
+>> [Sat 21 Oct 2023 04:36:42 AM UTC] Running pycbc inspiral numpy:unthreaded with 16 threads
+
+
+>> [Sat 21 Oct 2023 08:07:50 AM UTC] Running pycbc inspiral numpy:pthreads with 16 threads
+
+
+>> [Sat 21 Oct 2023 11:39:42 AM UTC] Running pycbc inspiral numpy:openmp with 32 threads
+
+
+>> [Sat 21 Oct 2023 03:10:48 PM UTC] Running pycbc inspiral numpy:unthreaded with 32 threads
+
+
+>> [Sat 21 Oct 2023 06:43:57 PM UTC] Running pycbc inspiral numpy:pthreads with 32 threads

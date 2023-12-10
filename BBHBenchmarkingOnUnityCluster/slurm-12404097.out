@@ -1,0 +1,9 @@
+Current Partition: umd-cscdr-cpu
+Node Name: umd-cscdr-cpu[001,039-040,042-043,046]
+Number of Nodes: 6
+Number of Tasks: 16
+CPUs per Node: 24
+Running Inspiral...
+
+
+>> [Thu 26 Oct 2023 11:22:42 PM UTC] Running pycbc inspiral fftw:pthreads with 32 threads

@@ -1,0 +1,6 @@
+Current Partition: umd-cscdr-cpu
+Node Name: umd-cscdr-cpu[001-003,009]
+Number of Nodes: 4
+Number of Tasks: 16
+CPUs per Node: 8
+Running Inspiral...
